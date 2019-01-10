@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AvailabilityVC">
+            <connections>
+                <outlet property="btnSubmit" destination="2o7-Yl-f7m" id="HSv-eS-ntt"/>
+                <outlet property="lblTitle" destination="hcv-hB-cw7" id="SZw-rI-iUs"/>
+                <outlet property="tblv" destination="E45-57-C1N" id="hGB-rN-fQg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E45-57-C1N">
+                    <rect key="frame" x="0.0" y="40" width="320" height="488"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Vvb-b5-kFt"/>
+                        <outlet property="delegate" destination="-1" id="uJE-uW-HvF"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcv-hB-cw7">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.70588235290000001" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NeH-V3-aVU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2o7-Yl-f7m">
+                    <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.70588235290000001" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="A0c-fB-PAh"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="btnSubmitClicked:" destination="-1" eventType="touchUpInside" id="ydm-YE-BJ7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2o7-Yl-f7m" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="3q3-ZU-u4y"/>
+                <constraint firstItem="E45-57-C1N" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="7VO-s7-hPJ"/>
+                <constraint firstItem="2o7-Yl-f7m" firstAttribute="top" secondItem="E45-57-C1N" secondAttribute="bottom" id="9yl-o5-ulD"/>
+                <constraint firstItem="2o7-Yl-f7m" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="F2o-8Q-YpF"/>
+                <constraint firstItem="E45-57-C1N" firstAttribute="top" secondItem="hcv-hB-cw7" secondAttribute="bottom" id="HKf-2g-S5p"/>
+                <constraint firstItem="2o7-Yl-f7m" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="YVE-Zt-tyo"/>
+                <constraint firstItem="E45-57-C1N" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="jzs-5t-auF"/>
+                <constraint firstItem="hcv-hB-cw7" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="qJU-Aj-VbD"/>
+                <constraint firstItem="hcv-hB-cw7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="swT-me-c3M"/>
+                <constraint firstItem="hcv-hB-cw7" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="weW-oh-Ge3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

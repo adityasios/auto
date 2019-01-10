@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_car" translatesAutoresizingMaskIntoConstraints="NO" id="SNM-k2-uSd">
+                                <rect key="frame" x="61" y="114" width="198" height="56"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="acE-JK-O5b">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spinner.gif" translatesAutoresizingMaskIntoConstraints="NO" id="fjw-ta-wqB">
+                                <rect key="frame" x="110" y="234" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1wI-oB-YJU"/>
+                                    <constraint firstAttribute="width" secondItem="fjw-ta-wqB" secondAttribute="height" multiplier="1:1" id="mzr-au-UXr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="acE-JK-O5b" secondAttribute="trailing" id="4ui-ag-nFJ"/>
+                            <constraint firstItem="fjw-ta-wqB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GYS-a4-VCC"/>
+                            <constraint firstItem="SNM-k2-uSd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UHe-u2-QSf"/>
+                            <constraint firstItem="acE-JK-O5b" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cat-dM-eyl"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="acE-JK-O5b" secondAttribute="bottom" id="eJI-Ya-1jo"/>
+                            <constraint firstItem="acE-JK-O5b" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iNM-sv-ktD"/>
+                            <constraint firstItem="SNM-k2-uSd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.5" id="kug-at-KYf"/>
+                            <constraint firstItem="fjw-ta-wqB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nFj-cf-UUm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="320" height="548"/>
+        <image name="logo_car" width="198" height="56"/>
+        <image name="spinner.gif" width="200" height="200"/>
+    </resources>
+</document>

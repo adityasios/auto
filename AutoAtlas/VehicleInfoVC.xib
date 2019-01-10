@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VehicleInfoVC">
+            <connections>
+                <outlet property="addVehicleBtn" destination="iHl-mO-DCs" id="0Bc-5b-EWi"/>
+                <outlet property="imgCar" destination="8Es-q5-msN" id="M0t-11-p9O"/>
+                <outlet property="lblCarNo" destination="7my-qa-wxK" id="c2j-PZ-Kcd"/>
+                <outlet property="tblVehcleInfo" destination="OzF-dd-0q4" id="GdD-c1-Hws"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHl-mO-DCs">
+                    <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.22289807689999999" blue="0.25640806919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="52p-Fe-GXg"/>
+                    </constraints>
+                    <state key="normal" title="Add New Vehicle"/>
+                    <connections>
+                        <action selector="addVehicleBtnAction:" destination="-1" eventType="touchUpInside" id="zTo-oO-s1Y"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car1" translatesAutoresizingMaskIntoConstraints="NO" id="8Es-q5-msN">
+                    <rect key="frame" x="135" y="8" width="50" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="ORA-xz-aCG"/>
+                        <constraint firstAttribute="width" secondItem="8Es-q5-msN" secondAttribute="height" multiplier="2:1" id="UyG-L6-C26"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OzF-dd-0q4">
+                    <rect key="frame" x="0.0" y="56" width="311" height="472"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Vtr-bc-ubp"/>
+                        <outlet property="delegate" destination="-1" id="ciL-hg-5c2"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViY-dU-mkR">
+                    <rect key="frame" x="195" y="13" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="1EE-I3-TXV"/>
+                        <constraint firstAttribute="width" secondItem="ViY-dU-mkR" secondAttribute="height" multiplier="1:1" id="VYS-bJ-Tl8"/>
+                    </constraints>
+                    <state key="normal" image="next-1"/>
+                    <connections>
+                        <action selector="btnNext:" destination="-1" eventType="touchUpInside" id="jgW-Wg-aC8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bj-bE-GPZ">
+                    <rect key="frame" x="110" y="13" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="ifw-k8-PBS"/>
+                        <constraint firstAttribute="width" secondItem="8bj-bE-GPZ" secondAttribute="height" multiplier="1:1" id="toG-d5-zrx"/>
+                    </constraints>
+                    <state key="normal" image="back"/>
+                    <connections>
+                        <action selector="btnBack:" destination="-1" eventType="touchUpInside" id="r0Z-4D-oaM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DL 2CS 1145" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7my-qa-wxK">
+                    <rect key="frame" x="124" y="41" width="73" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yK-6k-ybL">
+                    <rect key="frame" x="16" y="20" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8yK-6k-ybL" secondAttribute="height" multiplier="1:1" id="ilF-7d-hlV"/>
+                        <constraint firstAttribute="width" constant="15" id="vMH-jV-Z3e"/>
+                    </constraints>
+                    <state key="normal" image="edit"/>
+                    <connections>
+                        <action selector="editVehicleInfoAction:" destination="-1" eventType="touchUpInside" id="Day-1B-f6q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iHl-mO-DCs" secondAttribute="trailing" id="1R4-MT-eWC"/>
+                <constraint firstItem="8yK-6k-ybL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="6KA-Nb-Dph"/>
+                <constraint firstItem="8Es-q5-msN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Xl-i2-EIg"/>
+                <constraint firstItem="iHl-mO-DCs" firstAttribute="top" secondItem="OzF-dd-0q4" secondAttribute="bottom" id="C7c-yC-snu"/>
+                <constraint firstAttribute="trailing" secondItem="OzF-dd-0q4" secondAttribute="trailing" constant="9" id="Gmv-Ng-Nv8"/>
+                <constraint firstItem="7my-qa-wxK" firstAttribute="top" secondItem="8Es-q5-msN" secondAttribute="bottom" constant="8" id="LDc-Ir-4lS"/>
+                <constraint firstItem="8bj-bE-GPZ" firstAttribute="centerY" secondItem="8Es-q5-msN" secondAttribute="centerY" id="MlS-Pg-ulO"/>
+                <constraint firstItem="8Es-q5-msN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="OzU-jj-fNM"/>
+                <constraint firstItem="7my-qa-wxK" firstAttribute="centerX" secondItem="8Es-q5-msN" secondAttribute="centerX" id="VBw-5H-tpS"/>
+                <constraint firstItem="8Es-q5-msN" firstAttribute="leading" secondItem="8bj-bE-GPZ" secondAttribute="trailing" constant="10" id="dRc-if-gUc"/>
+                <constraint firstItem="8yK-6k-ybL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="gYb-A8-PTy"/>
+                <constraint firstItem="iHl-mO-DCs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gjK-vB-3W3"/>
+                <constraint firstItem="ViY-dU-mkR" firstAttribute="leading" secondItem="8Es-q5-msN" secondAttribute="trailing" constant="10" id="p1U-ht-63r"/>
+                <constraint firstItem="OzF-dd-0q4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="typ-6Z-iTw"/>
+                <constraint firstItem="OzF-dd-0q4" firstAttribute="top" secondItem="7my-qa-wxK" secondAttribute="bottom" id="v3x-Fj-vOU"/>
+                <constraint firstItem="ViY-dU-mkR" firstAttribute="centerY" secondItem="8Es-q5-msN" secondAttribute="centerY" id="v8f-Rh-TGq"/>
+                <constraint firstAttribute="bottom" secondItem="iHl-mO-DCs" secondAttribute="bottom" id="yhk-3z-vgm"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="30" height="30"/>
+        <image name="car1" width="100" height="50"/>
+        <image name="edit" width="30" height="30"/>
+        <image name="next-1" width="30" height="30"/>
+    </resources>
+</document>

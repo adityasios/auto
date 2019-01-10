@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProceedVC">
+            <connections>
+                <outlet property="btnLogin" destination="0dt-Vv-k5b" id="soD-M4-Dmd"/>
+                <outlet property="btnPrivacyPolicy" destination="rTw-Wy-icZ" id="lUE-pK-bJ1"/>
+                <outlet property="btnSignUp" destination="dLo-x3-isC" id="a3o-Xk-m14"/>
+                <outlet property="btnSkipToHome" destination="Df3-Yh-pUG" id="zjd-ao-rL9"/>
+                <outlet property="btnTerms" destination="K1I-6E-T5k" id="8jI-pD-kTA"/>
+                <outlet property="imgLogo" destination="QoF-kO-1gT" id="xkm-6A-dxn"/>
+                <outlet property="lblAnd" destination="PrM-l1-nBu" id="ZxN-kk-ZpV"/>
+                <outlet property="lblSigningUp" destination="fue-RA-PIc" id="zmy-8Q-s8e"/>
+                <outlet property="lblTitle" destination="2nq-ju-iHE" id="xmp-99-WNm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Fyu-hx-Onf">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_car" translatesAutoresizingMaskIntoConstraints="NO" id="QoF-kO-1gT">
+                    <rect key="frame" x="61" y="95" width="198" height="56"/>
+                </imageView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="SIMPLY DRIVE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nq-ju-iHE">
+                    <rect key="frame" x="105" y="171" width="110" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dt-Vv-k5b">
+                    <rect key="frame" x="64" y="236" width="192" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.22289807689999999" blue="0.25640806919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="oB9-J8-xzr"/>
+                    </constraints>
+                    <state key="normal" title="LOG IN">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnLoginAction:" destination="-1" eventType="touchUpInside" id="b9v-aw-Trp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLo-x3-isC">
+                    <rect key="frame" x="64" y="285" width="192" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MS3-J2-WjG"/>
+                    </constraints>
+                    <state key="normal" title="SIGN UP">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSignUpAction:" destination="-1" eventType="touchUpInside" id="vMe-De-oAK"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="By Signing up you agree to our" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fue-RA-PIc">
+                    <rect key="frame" x="67" y="333" width="186" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrM-l1-nBu">
+                    <rect key="frame" x="149" y="361" width="23" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTw-Wy-icZ">
+                    <rect key="frame" x="174" y="353" width="84" height="32"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="privacy policy">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="btnPrivacyPolicyAction:" destination="-1" eventType="touchUpInside" id="2Lw-b4-Nce"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1I-6E-T5k">
+                    <rect key="frame" x="68" y="353" width="79" height="32"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Terms of use">
+                                <attributes>
+                                    <font key="NSFont" size="13" name=".AppleSystemUIFont"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="btnTermsAction:" destination="-1" eventType="touchUpInside" id="pbz-hh-sW6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-Yh-pUG">
+                    <rect key="frame" x="218" y="20" width="86" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="SKIP TO HOME"/>
+                    <connections>
+                        <action selector="btnSkipToHomeAction:" destination="-1" eventType="touchUpInside" id="HSF-wf-bIN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dLo-x3-isC" firstAttribute="top" secondItem="0dt-Vv-k5b" secondAttribute="bottom" constant="9" id="1yk-hT-gFh"/>
+                <constraint firstItem="PrM-l1-nBu" firstAttribute="leading" secondItem="K1I-6E-T5k" secondAttribute="trailing" constant="2" id="4NP-Ye-Qf9"/>
+                <constraint firstItem="0dt-Vv-k5b" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.6" id="5oc-Q6-mS3"/>
+                <constraint firstItem="Fyu-hx-Onf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5rR-YJ-bym"/>
+                <constraint firstItem="fue-RA-PIc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7Gh-VR-0Lt"/>
+                <constraint firstItem="QoF-kO-1gT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8q4-Uc-KEh"/>
+                <constraint firstItem="QoF-kO-1gT" firstAttribute="top" secondItem="Df3-Yh-pUG" secondAttribute="bottom" constant="59" id="9uZ-aM-i1m"/>
+                <constraint firstAttribute="trailing" secondItem="Df3-Yh-pUG" secondAttribute="trailing" constant="16" id="BZg-vy-qFJ"/>
+                <constraint firstItem="0dt-Vv-k5b" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Du3-G2-JDb"/>
+                <constraint firstItem="PrM-l1-nBu" firstAttribute="top" secondItem="fue-RA-PIc" secondAttribute="bottom" constant="12" id="Gxj-L6-bqn"/>
+                <constraint firstItem="fue-RA-PIc" firstAttribute="top" secondItem="dLo-x3-isC" secondAttribute="bottom" constant="8" id="Itq-vE-UrG"/>
+                <constraint firstItem="dLo-x3-isC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OT0-nA-fad"/>
+                <constraint firstItem="dLo-x3-isC" firstAttribute="height" secondItem="0dt-Vv-k5b" secondAttribute="height" id="QCG-pg-wHX"/>
+                <constraint firstItem="2nq-ju-iHE" firstAttribute="centerX" secondItem="QoF-kO-1gT" secondAttribute="centerX" id="QOf-Az-Eq7"/>
+                <constraint firstItem="0dt-Vv-k5b" firstAttribute="top" secondItem="2nq-ju-iHE" secondAttribute="bottom" constant="44" id="USP-3p-2L0"/>
+                <constraint firstItem="QoF-kO-1gT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="95" id="W7v-52-IqN"/>
+                <constraint firstItem="rTw-Wy-icZ" firstAttribute="top" secondItem="fue-RA-PIc" secondAttribute="bottom" constant="4" id="YIf-ss-U1F"/>
+                <constraint firstItem="PrM-l1-nBu" firstAttribute="centerY" secondItem="rTw-Wy-icZ" secondAttribute="centerY" id="alP-SX-931"/>
+                <constraint firstItem="PrM-l1-nBu" firstAttribute="centerX" secondItem="dLo-x3-isC" secondAttribute="centerX" id="eud-Ay-iSE"/>
+                <constraint firstItem="K1I-6E-T5k" firstAttribute="top" secondItem="fue-RA-PIc" secondAttribute="bottom" constant="4" id="hJR-83-T13"/>
+                <constraint firstItem="dLo-x3-isC" firstAttribute="width" secondItem="0dt-Vv-k5b" secondAttribute="width" id="lHK-pD-C3l"/>
+                <constraint firstItem="PrM-l1-nBu" firstAttribute="centerY" secondItem="K1I-6E-T5k" secondAttribute="centerY" id="mTq-a6-OfB"/>
+                <constraint firstItem="Df3-Yh-pUG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="mfc-mX-4OL"/>
+                <constraint firstAttribute="trailing" secondItem="Fyu-hx-Onf" secondAttribute="trailing" id="nly-oo-AOp"/>
+                <constraint firstAttribute="bottom" secondItem="Fyu-hx-Onf" secondAttribute="bottom" id="u8D-G4-2bx"/>
+                <constraint firstItem="2nq-ju-iHE" firstAttribute="top" secondItem="QoF-kO-1gT" secondAttribute="bottom" constant="20" id="wwz-32-H4V"/>
+                <constraint firstItem="rTw-Wy-icZ" firstAttribute="leading" secondItem="PrM-l1-nBu" secondAttribute="trailing" constant="2" id="wzN-g8-cqz"/>
+                <constraint firstItem="Fyu-hx-Onf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zm5-zt-gNV"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="320" height="548"/>
+        <image name="logo_car" width="198" height="56"/>
+    </resources>
+</document>
