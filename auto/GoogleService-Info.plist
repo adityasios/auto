@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>555065761974-jukt00cppd03qvj2i13j7cpf5q2jbsjl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.555065761974-jukt00cppd03qvj2i13j7cpf5q2jbsjl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnoLhPapibMvA_k3tjEfEdWQBOf07RVH8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>555065761974</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.// aditya.AutoAtlas</string>
+	<key>PROJECT_ID</key>
+	<string>autoatlas-1516010977073</string>
+	<key>STORAGE_BUCKET</key>
+	<string>autoatlas-1516010977073.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:555065761974:ios:37139649b00126f3</string>
+	<key>DATABASE_URL</key>
+	<string>https://autoatlas-1516010977073.firebaseio.com</string>
+</dict>
+</plist>
