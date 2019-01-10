@@ -240,7 +240,7 @@
 
 /*
 SOCIAL  PROFILE UPDATED
-http://localhost/autoatlas/api/user/social_profile_completed
+http://localhost/ aditya/api/user/social_profile_completed
 key:8dfafb41e9b4c0b3decd875e7a231049
 first_name:njkhkuh
 email:nkljl2221@gamil.com

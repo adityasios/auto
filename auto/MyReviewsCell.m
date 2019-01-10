@@ -27,7 +27,7 @@
     self.lblRating.textColor = [UIColor  darkTextColor];
     
     self.lblMyComment.font = kQuicksand_Bold14;
-    self.lblMyComment.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblMyComment.textColor = UIColorFromRGB(k adityaGreen);
     
     self.ratingView.tintColor = UIColorFromRGB(kYellow);
     

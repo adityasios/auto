@@ -40,7 +40,7 @@
 
 -(void)setBtn{
     NSDictionary *dict1 = @{NSUnderlineStyleAttributeName:@(NSUnderlineStyleSingle),
-                            NSForegroundColorAttributeName:UIColorFromRGB(kAutoAtlasGreen),
+                            NSForegroundColorAttributeName:UIColorFromRGB(k adityaGreen),
                             NSFontAttributeName:kQuicksand_Bold15
                             };
     NSAttributedString * atr = [[NSAttributedString  alloc]initWithString:@"Edit" attributes:dict1];
@@ -48,7 +48,7 @@
     
     self.btnAddVeh.layer.cornerRadius = 2.0;
     self.btnAddVeh.clipsToBounds = YES;
-    self.btnAddVeh.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnAddVeh.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnAddVeh.titleLabel.font = kQuicksand_Bold14;
     [self.btnAddVeh  setTitle:kAddNewVehicle forState:UIControlStateNormal];
     [self.btnAddVeh setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
@@ -132,7 +132,7 @@
     
     //brand name
     cell.lblBrandName.font = kQuicksand_Bold12;
-    cell.lblBrandName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblBrandName.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblBrandName.text = @"BRAND NAME";
     
     cell.lblBrandNameTxt.font = kQuicksand_Regular14;
@@ -142,7 +142,7 @@
     
     //vehicle type
     cell.lblVehicleType.font = kQuicksand_Bold12;
-    cell.lblVehicleType.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblVehicleType.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblVehicleType.text = @"VEHICLE TYPE";
     
     cell.lblVehicleTypeTxt.font = kQuicksand_Regular13;
@@ -153,7 +153,7 @@
     
     //model name
     cell.lblModelName.font = kQuicksand_Bold12;
-    cell.lblModelName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblModelName.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblModelName.text = @"MODEL NAME";
     
     cell.lblModelNameTxt.font = kQuicksand_Regular14;
@@ -164,7 +164,7 @@
     
     //reg no
     cell.lblRegNo.font = kQuicksand_Bold12;
-    cell.lblRegNo.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblRegNo.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblRegNo.text = @"REGISTRATION NUMBER";
     
     cell.lblRegNoTxt.font = kQuicksand_Regular14;
@@ -174,7 +174,7 @@
     
     //reg yr
     cell.lblRegYr.font = kQuicksand_Bold12;
-    cell.lblRegYr.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblRegYr.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblRegYr.text = @"YEAR OF MANUFACTURE";
     
     
@@ -187,7 +187,7 @@
     
     //reg due date
     cell.lblRegDueDate.font = kQuicksand_Bold12;
-    cell.lblRegDueDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblRegDueDate.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblRegDueDate.text = @"REGISTRATION DUE DATE";
     
     cell.lblRegDueDateTxt.font = kQuicksand_Regular14;
@@ -201,7 +201,7 @@
     
     //service_date
     cell.lblServiceDate.font = kQuicksand_Bold12;
-    cell.lblServiceDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblServiceDate.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblServiceDate.text = @"SERVICE DATE";
     
     cell.lblServiceDateTxt.font = kQuicksand_Regular14;
@@ -216,7 +216,7 @@
     
     //tyre fitment date
     cell.lblTyreFitDate.font = kQuicksand_Bold12;
-    cell.lblTyreFitDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblTyreFitDate.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblTyreFitDate.text = @"TYRE FITMENT DATE";
     
     cell.lblTyreFitDateTxt.font = kQuicksand_Regular14;
@@ -230,7 +230,7 @@
     
     //battery installation date
     cell.lblBatInstDate.font = kQuicksand_Bold12;
-    cell.lblBatInstDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblBatInstDate.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblBatInstDate.text = @"BATTERY FITMENT DATE";
     
     
@@ -245,7 +245,7 @@
     
     //insurance date
     cell.lblInsuDate.font = kQuicksand_Bold12;
-    cell.lblInsuDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblInsuDate.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblInsuDate.text = @"INSURANCE DUE DATE";
     
     cell.lblInsuDateTxt.font = kQuicksand_Regular14;
@@ -258,7 +258,7 @@
     
     //avg running
     cell.lblAvgRun.font = kQuicksand_Bold12;
-    cell.lblAvgRun.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblAvgRun.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblAvgRun.text = @"AVERAGE KMS PER WEEK";
     
     cell.lblAvgRunTxt.font = kQuicksand_Regular14;

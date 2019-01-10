@@ -24,7 +24,7 @@
 
 /*
 "created_on" = "2018-03-20 18:03:33";
-"profile_image" = "http://websitedevelopment101.com/autoatlas/assets/uploads/user_images/dee452699ff0ea560ba1629073f793f9.jpg";
+"profile_image" = "http://websitedevelopment101.com/ aditya/assets/uploads/user_images/dee452699ff0ea560ba1629073f793f9.jpg";
 "rate_star" = 5;
 review = yes;
 "user_name" = "saurabh ";

@@ -46,7 +46,7 @@
 
 -(void)setBtn {
     
-    self.btnSave.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSave.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnSave.titleLabel.font = kQuicksand_Bold12;
     self.btnSave.layer.cornerRadius = 4.0;
     
@@ -82,9 +82,9 @@
         
         cell1.lblNextService.text = [arr1 objectAtIndex:indexPath.row];
         cell1.lblRegoDue.text = [arr2 objectAtIndex:indexPath.row];
-        cell1.lblNextService.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell1.lblNextService.textColor = UIColorFromRGB(k adityaGreen);
         cell1.lblNextService.font = kQuicksand_Regular12;
-        cell1.lblRegoDue.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell1.lblRegoDue.textColor = UIColorFromRGB(k adityaGreen);
         cell1.lblRegoDue.font = kQuicksand_Regular12;
         cell1.lblDateNextService.textColor = UIColorFromRGB(kappleDarkGrey);
         cell1.lblDateNextService.font = kQuicksand_Bold16;
@@ -108,9 +108,9 @@
         
         [cell2.btnInsuranceDue addTarget:self action:@selector(pickDate:) forControlEvents:UIControlEventTouchUpInside];
         
-        cell2.lblVehicleType.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell2.lblVehicleType.textColor = UIColorFromRGB(k adityaGreen);
         cell2.lblVehicleType.font = kQuicksand_Regular12;
-        cell2.lblInsuranceDue.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell2.lblInsuranceDue.textColor = UIColorFromRGB(k adityaGreen);
         cell2.lblInsuranceDue.font = kQuicksand_Regular12;
         cell2.lblCarType.textColor = UIColorFromRGB(kappleDarkGrey);
         cell2.lblCarType.font = kQuicksand_Bold16;
@@ -130,9 +130,9 @@
             cell3 = [tableView dequeueReusableCellWithIdentifier:@"EditVehicleCell3"];
         }
         
-        cell3.lblVehicleMake.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell3.lblVehicleMake.textColor = UIColorFromRGB(k adityaGreen);
         cell3.lblVehicleMake.font = kQuicksand_Regular12;
-        cell3.lblModelYear.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell3.lblModelYear.textColor = UIColorFromRGB(k adityaGreen);
         cell3.lblModelYear.font = kQuicksand_Regular12;
         cell3.lblVehicleCompany.textColor = UIColorFromRGB(kappleDarkGrey);
         cell3.lblVehicleCompany.font = kQuicksand_Bold16;

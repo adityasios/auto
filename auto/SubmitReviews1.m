@@ -60,7 +60,7 @@
 
 -(void)setBtn {
     
-    self.btnSubmit.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSubmit.backgroundColor = UIColorFromRGB(k adityaGreen);
     [self.btnSubmit setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     self.btnSubmit.titleLabel.font = kQuicksand_Bold14;
     self.btnSubmit.layer.cornerRadius = 12.0;
@@ -134,7 +134,7 @@
 
 
 /*
- http://websitedevelopment101.com/autoatlas/api/vendor/add_user_review
+ http://websitedevelopment101.com/ aditya/api/vendor/add_user_review
  POST
  key
  service_id

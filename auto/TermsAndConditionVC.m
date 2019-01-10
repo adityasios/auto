@@ -38,7 +38,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Terms & Conditions"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 

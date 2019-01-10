@@ -32,7 +32,7 @@
     self.navigationController.navigationBar.hidden = YES;
     self.pageControl.numberOfPages = 3;
     self.pageControl.currentPage = 0;
-    self.pageControl.currentPageIndicatorTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.pageControl.currentPageIndicatorTintColor = UIColorFromRGB(k adityaGreen);
     [self  setPageViewController];
     
     NSString * strUserID = [Validations  getObjectForKey:kuser_id];
@@ -186,7 +186,7 @@
         [self.btnSkip setTitleColor:UIColorFromRGB(kappleDarkGrey) forState:UIControlStateNormal];
     }else {
         [self.btnSkip setTitle:@"ALLOW & ACCEPT " forState:UIControlStateNormal];
-        [self.btnSkip setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+        [self.btnSkip setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     }
 }
 

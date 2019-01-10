@@ -25,7 +25,7 @@
 
 /*
 "user_name": "Raminder ",
-"profile_image": "http:\/\/websitedevelopment101.com\/autoatlas\/assets\/uploads\/user_images\/eebef3f7be5b360cedb97dae6644d9b1.jpg",
+"profile_image": "http:\/\/websitedevelopment101.com\/ aditya\/assets\/uploads\/user_images\/eebef3f7be5b360cedb97dae6644d9b1.jpg",
 "rate_star": "3",
 "review": "hiiiiiii yooo"
 */

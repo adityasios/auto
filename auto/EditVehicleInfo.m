@@ -49,17 +49,17 @@
 
 -(void)setLbl {
     
-    self.lblVehicleBrand.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblVehicleModel.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblVehicleType.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblRegNo.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblRegYear.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblRegDueDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblServiceDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblTyreFitDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblInsuranceDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblBatteryInstDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.lblAvgRunDate.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblVehicleBrand.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblVehicleModel.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblVehicleType.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblRegNo.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblRegYear.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblRegDueDate.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblServiceDate.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblTyreFitDate.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblInsuranceDate.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblBatteryInstDate.textColor = UIColorFromRGB(k adityaGreen);
+    self.lblAvgRunDate.textColor = UIColorFromRGB(k adityaGreen);
     
     self.lblVehicleBrand.font = kQuicksand_Bold12;
     self.lblVehicleModel.font = kQuicksand_Bold12;
@@ -79,7 +79,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Edit Vehicle"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -299,13 +299,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [datepicker showActionSheetPicker];
 }
@@ -363,13 +363,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [datepicker showActionSheetPicker];
 }
@@ -406,13 +406,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [datepicker showActionSheetPicker];
 }
@@ -450,13 +450,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [datepicker showActionSheetPicker];
 }
@@ -491,13 +491,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [datepicker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [datepicker showActionSheetPicker];
 }
@@ -524,7 +524,7 @@
 
 /*
  EDIT VEHICLE INFO
- http://websitedevelopment101.com/autoatlas/api/vehicles/edit_vehicle_info
+ http://websitedevelopment101.com/ aditya/api/vehicles/edit_vehicle_info
  POST
  yes
  
@@ -796,7 +796,7 @@
 
 /*
 EDIT VEHICLE INFO
-http://websitedevelopment101.com/autoatlas/api/vehicles/edit_vehicle_info
+http://websitedevelopment101.com/ aditya/api/vehicles/edit_vehicle_info
 POST
 yes
 
@@ -1033,13 +1033,13 @@ vehicle_id:46
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [picker showActionSheetPicker];
 }
@@ -1088,13 +1088,13 @@ vehicle_id:46
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [picker showActionSheetPicker];
 }
@@ -1119,7 +1119,7 @@ vehicle_id:46
     [keyboardToolbar sizeToFit];
     UIBarButtonItem *flexBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
     UIBarButtonItem *doneBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(txfdAverageDoneButtonPressed)];
-    doneBarButton.tintColor = UIColorFromRGB(kAutoAtlasGreen);
+    doneBarButton.tintColor = UIColorFromRGB(k adityaGreen);
     keyboardToolbar.items = @[flexBarButton, doneBarButton];
     self.txfdAvgRunDate.inputAccessoryView = keyboardToolbar;
 }

@@ -77,16 +77,16 @@
     self.btnPrivacyPolicy.titleLabel.font = kQuicksand_Regular11;
     
     self.btnSignInBottom.titleLabel.font = kQuicksand_Regular13;
-    [self.btnSignInBottom   setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [self.btnSignInBottom   setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     
     self.btnSignUp.layer.cornerRadius = 2.0;
     self.btnSignUp.clipsToBounds = YES;
-    self.btnSignUp.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSignUp.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnSignUp.titleLabel.font = kQuicksand_Bold14;
     [self.btnSignUp setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     
     NSDictionary *dict1 = @{NSUnderlineStyleAttributeName:@(NSUnderlineStyleSingle),
-                            NSForegroundColorAttributeName:UIColorFromRGB(kAutoAtlasGreen),
+                            NSForegroundColorAttributeName:UIColorFromRGB(k adityaGreen),
                             NSFontAttributeName:kQuicksand_Regular12
                             };
     NSAttributedString * atr = [[NSAttributedString  alloc]initWithString:@"Sign In" attributes:dict1];
@@ -120,13 +120,13 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField{
     if (textField == self.txtFldName) {
-        self.lblNameBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblNameBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }else if (textField == self.txtfldEmail){
-        self.lblEmailBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblEmailBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }else if (textField == self.txtFldPswd) {
-        self.lblPswdBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblPswdBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }else {
-        self.lblCnfrmBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblCnfrmBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }
 }
 
@@ -385,7 +385,7 @@
 
 
 /*
-2018-01-16 22:51:25.829278+0530 AutoAtlas[2962:589146] RESULT  = {
+2018-01-16 22:51:25.829278+0530  aditya[2962:589146] RESULT  = {
     data =     {
         "created_at" = "2018-01-16 22:51:22";
         email = "test1@gmail.com";

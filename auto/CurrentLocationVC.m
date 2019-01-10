@@ -54,7 +54,7 @@
     
     [self.btnExploreServices setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     self.btnExploreServices.titleLabel.font = kQuicksand_Bold12;
-    self.btnExploreServices.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnExploreServices.backgroundColor = UIColorFromRGB(k adityaGreen);
 }
 
 

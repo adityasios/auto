@@ -44,7 +44,7 @@
 #pragma mark - NAV SET UP
 -(void)setNavBar {
     [self customNavTitle:@"All Transactions"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -87,7 +87,7 @@
         cell.lblcancld.text = @"cancelled";
     }else {
         
-        cell.lblcancld.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell.lblcancld.textColor = UIColorFromRGB(k adityaGreen);
         cell.lblcancld.text = @"completed";
     }
     

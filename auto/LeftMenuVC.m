@@ -60,9 +60,9 @@
 
 -(void)setViews{
     self.navigationController.navigationBarHidden = YES;
-    self.view.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.tblViewLeft.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.viewHeader.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.view.backgroundColor = UIColorFromRGB(k adityaGreen);
+    self.tblViewLeft.backgroundColor = UIColorFromRGB(k adityaGreen);
+    self.viewHeader.backgroundColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -162,10 +162,10 @@
     
     if (indexPath.row < arrMenu.count) {
         Customcell *cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.backgroundColor = UIColorFromRGBWithAlpha(kAutoAtlasGreen, 0.5);
+        cell.backgroundColor = UIColorFromRGBWithAlpha(k adityaGreen, 0.5);
     }else{
         UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.backgroundColor = UIColorFromRGBWithAlpha(kAutoAtlasGreen, 0.5);
+        cell.backgroundColor = UIColorFromRGBWithAlpha(k adityaGreen, 0.5);
     }
     
     
@@ -326,7 +326,7 @@
 -(void)shareApp{
     MainViewController * mainViewController = (MainViewController *)self.sideMenuController;
     [mainViewController hideLeftViewAnimated:YES completionHandler:nil];
-    NSString *textToShare = @"Look at this awesome AutoAtlas app for your vehicles , Get latest service notifications & much more!!";
+    NSString *textToShare = @"Look at this awesome  aditya app for your vehicles , Get latest service notifications & much more!!";
     NSURL *myWebsite = [NSURL URLWithString:@"http://onelink.to/rfyzsu"];
     NSArray *objectsToShare = @[textToShare, myWebsite];
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];

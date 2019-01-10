@@ -74,7 +74,7 @@
     self.tblv.tableFooterView = viewfooter;
     
     activityView = [[UIActivityIndicatorView  alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-    activityView.color = UIColorFromRGB(kAutoAtlasGreen);
+    activityView.color = UIColorFromRGB(k adityaGreen);
     activityView.center = CGPointMake(SCREEN_WIDTH/2, 30);
     [activityView hidesWhenStopped];
     [viewfooter addSubview:activityView];
@@ -168,7 +168,7 @@
 
 /*
 VENDOR REVIEWS
-http://websitedevelopment101.com/autoatlas/api/vendor/get_vendor_reviews
+http://websitedevelopment101.com/ aditya/api/vendor/get_vendor_reviews
 key
 page_no
 vendor_id

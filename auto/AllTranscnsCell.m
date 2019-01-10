@@ -16,7 +16,7 @@
     self.transactionNumber.font = kQuicksand_Regular12;
     self.transactionNumber.textColor = UIColorFromRGB(kappleDarkGrey);
     
-    self.lblPackageName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblPackageName.textColor = UIColorFromRGB(k adityaGreen);
     self.lblPackageName.font = kQuicksand_Bold12;
     
     self.lblDate.textColor = UIColorFromRGB(kappleLightGrey);

@@ -66,14 +66,14 @@
 
 -(void)setBtn {
     
-    [self.btnViewActivities setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [self.btnViewActivities setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     self.btnViewActivities.titleLabel.font = kQuicksand_Bold12;
 }
 
 
 -(void)setNavBar {
     [self customNavTitle:@"Notifications"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 

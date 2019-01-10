@@ -63,7 +63,7 @@
 
 -(void)addRefreshControl{
     refresh = [[UIRefreshControl alloc]init];
-    refresh.tintColor = UIColorFromRGB(kAutoAtlasGreen);
+    refresh.tintColor = UIColorFromRGB(k adityaGreen);
     [self.tblViewMyav addSubview:refresh];
     [refresh addTarget:self action:@selector(refreshTable) forControlEvents:UIControlEventValueChanged];
 }
@@ -286,7 +286,7 @@
     //timing
     cell.lblTime.textColor = UIColorFromRGB(kappleDarkGrey);
     cell.lblTime.font = kQuicksand_Regular10;
-    NSDictionary * dictTitle = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(kAutoAtlasGreen),NSForegroundColorAttributeName, kQuicksand_Bold10,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
+    NSDictionary * dictTitle = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(k adityaGreen),NSForegroundColorAttributeName, kQuicksand_Bold10,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
     NSAttributedString * strCheck = [[NSAttributedString  alloc] initWithString:[NSString  stringWithFormat:@"Check Availability"] attributes:dictTitle];
     cell.lblTime.attributedText = strCheck;
     
@@ -299,7 +299,7 @@
     
     //services
     cell.viewBtnServices.layer.cornerRadius =10.0;
-    cell.viewBtnServices.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.viewBtnServices.backgroundColor = UIColorFromRGB(k adityaGreen);
     
     [cell.btnViewServices addTarget:self action:@selector(viewServicesAction:) forControlEvents:UIControlEventTouchUpInside];
     cell.btnViewServices.titleLabel.font = kQuicksand_Bold10;

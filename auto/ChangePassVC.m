@@ -117,7 +117,7 @@
 -(void)setBtn{
     self.btnSubmit.layer.cornerRadius = 2.0;
     self.btnSubmit.clipsToBounds = YES;
-    self.btnSubmit.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSubmit.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnSubmit.titleLabel.font = kQuicksand_Bold14;
     [self.btnSubmit setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
 }
@@ -130,7 +130,7 @@
 }
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField{
-    textField.layer.borderColor = UIColorFromRGB(kAutoAtlasGreen).CGColor;
+    textField.layer.borderColor = UIColorFromRGB(k adityaGreen).CGColor;
 }
 
 -(void)textFieldDidEndEditing:(UITextField *)textField{

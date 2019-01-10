@@ -52,7 +52,7 @@
 }
 
 -(void)setBtn{
-    self.btnSubmit.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSubmit.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnSubmit.titleLabel.font = kQuicksand_Bold14;
     [self.btnSubmit setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
 }

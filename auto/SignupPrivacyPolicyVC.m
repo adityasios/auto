@@ -42,7 +42,7 @@
 -(void)setNavBar {
     [self customNavTitle:@"Privacy Policy"];
     [self.navigationController  setNavigationBarHidden:NO animated:YES];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 

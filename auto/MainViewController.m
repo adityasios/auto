@@ -18,8 +18,8 @@
     if (self.storyboard) {
         self.leftViewWidth = SCREEN_WIDTH*0.7;
         //self.leftViewBackgroundImage = [UIImage imageNamed:@"menubg"];
-        //self.leftView.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
-        self.leftViewBackgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        //self.leftView.backgroundColor = UIColorFromRGB(k adityaGreen);
+        self.leftViewBackgroundColor = UIColorFromRGB(k adityaGreen);
         
     }else {
         

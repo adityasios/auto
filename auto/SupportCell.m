@@ -13,7 +13,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-    self.lblTitle.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblTitle.textColor = UIColorFromRGB(k adityaGreen);
     self.lblTitle.font = kQuicksand_Bold14;
     
     self.lblTxt.textColor = UIColorFromRGB(kappleGrey);

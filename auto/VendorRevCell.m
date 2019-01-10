@@ -18,7 +18,7 @@
     self.imgVProfile.clipsToBounds = YES;
     
     self.lblUserName.font = kQuicksand_Bold14;
-    self.lblUserName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblUserName.textColor = UIColorFromRGB(k adityaGreen);
     
     self.lblDate.font = kQuicksand_Regular11;
     self.lblDate.textColor = UIColorFromRGB(kappleGrey);

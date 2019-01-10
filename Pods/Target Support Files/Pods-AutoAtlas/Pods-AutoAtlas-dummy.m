@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_AutoAtlas : NSObject
+@interface PodsDummy_Pods_ aditya : NSObject
 @end
-@implementation PodsDummy_Pods_AutoAtlas
+@implementation PodsDummy_Pods_ aditya
 @end
