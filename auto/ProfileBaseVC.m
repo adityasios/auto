@@ -37,7 +37,7 @@
 }
 
 -(void)setViews{
-    self.viewProfileImage.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.viewProfileImage.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.viewProfileData.backgroundColor = UIColorFromRGB(kBackground);
     self.view.backgroundColor = UIColorFromRGB(kBackground);
 }
@@ -140,9 +140,9 @@
 
 - (void)style {
     
-    [carbonTabSwipeNavigation setIndicatorColor:UIColorFromRGBWithAlpha(kAutoAtlasGreen, 1.0)];
+    [carbonTabSwipeNavigation setIndicatorColor:UIColorFromRGBWithAlpha(k adityaGreen, 1.0)];
     [carbonTabSwipeNavigation setNormalColor:UIColorFromRGBWithAlpha(kappleDarkGrey, 1.0)];
-    [carbonTabSwipeNavigation setSelectedColor:UIColorFromRGBWithAlpha(kAutoAtlasGreen, 1.0)];
+    [carbonTabSwipeNavigation setSelectedColor:UIColorFromRGBWithAlpha(k adityaGreen, 1.0)];
     
     
     [carbonTabSwipeNavigation setTabExtraWidth:10];
@@ -152,7 +152,7 @@
     
     
     [carbonTabSwipeNavigation setNormalColor:UIColorFromRGB(kappleGrey) font:kQuicksand_Bold14];
-    [carbonTabSwipeNavigation setSelectedColor:UIColorFromRGB(kAutoAtlasGreen) font:kQuicksand_Bold14];
+    [carbonTabSwipeNavigation setSelectedColor:UIColorFromRGB(k adityaGreen) font:kQuicksand_Bold14];
 }
 
 
@@ -227,7 +227,7 @@
 
 /*
  UPDATE PROFILE IMAGE
- http://websitedevelopment101.com/autoatlas/api/user/update_profile_image
+ http://websitedevelopment101.com/ aditya/api/user/update_profile_image
  POST
  key:8dfafb41e9b4c0b3decd875e7a231049
  profile_photo:abc.png
@@ -328,7 +328,7 @@
         picker.delegate = self;
         picker.allowsEditing = YES;
         picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-        [picker.navigationBar setBarTintColor:UIColorFromRGBWithAlpha(kAutoAtlasGreen, 1.0)];
+        [picker.navigationBar setBarTintColor:UIColorFromRGBWithAlpha(k adityaGreen, 1.0)];
         [picker.navigationBar  setTranslucent:NO];
         picker.navigationBar.tintColor = [UIColor  whiteColor];
         [self presentViewController:picker animated:YES completion:NULL];

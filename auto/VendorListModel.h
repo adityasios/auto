@@ -99,7 +99,7 @@ distance = "5121.185992522363";
 email = "sangam@abc.com";
 "expired_at" = "<null>";
 hash = "<null>";
-image = "http://websitedevelopment101.com/autoatlas/assets/uploads/vendor_images/6b06fc287ff2829626db52d492a23a52.jpeg";
+
 "is_favourite" = 0;
 latitude = "23.45";
 longitude = "23.44";

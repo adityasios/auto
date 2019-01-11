@@ -82,7 +82,7 @@
     self.view.backgroundColor = UIColorFromRGB(kBackground);
     
     //select plan
-    self.viewSelectPlan.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.viewSelectPlan.backgroundColor = UIColorFromRGB(k adityaGreen);
     
     //crt plan
     self.viewCurrentPlan.backgroundColor = UIColorFromRGB(kappleWhite);
@@ -109,10 +109,10 @@
     self.lblYourCurentPlan.textColor = UIColorFromRGB(kappleDarkGrey);
     self.lblYourCurentPlan.font = kQuicksand_Bold14;
     
-    self.lbl1Vehicle.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lbl1Vehicle.textColor = UIColorFromRGB(k adityaGreen);
     self.lbl1Vehicle.font = kQuicksand_Bold13;
     
-    self.lblFree.textColor =  UIColorFromRGB(kAutoAtlasGreen);
+    self.lblFree.textColor =  UIColorFromRGB(k adityaGreen);
     self.lblFree.font = kQuicksand_Bold14;
 }
 
@@ -125,7 +125,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Subscriptions"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 -(void)customNavTitle:(NSString *)str{
@@ -449,7 +449,7 @@
 
 
 /*
- http://websitedevelopment101.com/autoatlas/api/subscription_plan/get_user_active_plan
+ http://websitedevelopment101.com/ aditya/api/subscription_plan/get_user_active_plan
  key:8dfafb41e9b4c0b3decd875e7a231049
  user_id:1
  */
@@ -457,7 +457,7 @@
 
 //plan list
 /*
-http://websitedevelopment101.com/autoatlas/api/subscription_plan/get_plans
+http://websitedevelopment101.com/ aditya/api/subscription_plan/get_plans
 key:8dfafb41e9b4c0b3decd875e7a231049
 user_id:1
 subscriptionplanid:2
@@ -466,7 +466,7 @@ plan_type  1,2
 
 
 /*
- http://websitedevelopment101.com/autoatlas/api/subscription_plan/updatePaymentStatus
+ http://websitedevelopment101.com/ aditya/api/subscription_plan/updatePaymentStatus
  "key":8dfafb41e9b4c0b3decd875e7a231049
  "user_id":1
  "subscriptionplanid":

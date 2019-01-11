@@ -82,7 +82,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Auto Atlas"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -181,7 +181,7 @@
     
     //timing
     cell.lblTime.textColor = UIColorFromRGB(kappleDarkGrey);
-    NSDictionary * dictTitle = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(kAutoAtlasGreen),NSForegroundColorAttributeName, kQuicksand_Bold12,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
+    NSDictionary * dictTitle = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(k adityaGreen),NSForegroundColorAttributeName, kQuicksand_Bold12,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
     NSAttributedString * strCheck = [[NSAttributedString  alloc] initWithString:[NSString  stringWithFormat:@"Check Availability"] attributes:dictTitle];
     cell.lblTime.attributedText = strCheck;
     
@@ -194,7 +194,7 @@
 
     //services
     cell.viewBtnServices.layer.cornerRadius =10.0;
-    cell.viewBtnServices.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.viewBtnServices.backgroundColor = UIColorFromRGB(k adityaGreen);
     
     [cell.btnViewServices addTarget:self action:@selector(viewServicesAction:) forControlEvents:UIControlEventTouchUpInside];
     cell.btnViewServices.titleLabel.font = kQuicksand_Bold10;

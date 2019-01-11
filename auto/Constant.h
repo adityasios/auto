@@ -82,7 +82,7 @@
 
 
 
-#define kAutoAtlasGreen      0x3AB34A
+#define k adityaGreen      0x3AB34A
 #define kBackground          0xF1F1F1
 #define kBlue                0x2547B5
 #define kYellow     0xf2a33c

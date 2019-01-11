@@ -37,7 +37,7 @@
 }
 
 -(void)setBtn {
-    self.addVehicleBtn.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.addVehicleBtn.backgroundColor = UIColorFromRGB(k adityaGreen);
     [self.addVehicleBtn setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     self.addVehicleBtn.titleLabel.font = kQuicksand_Bold12;
 }
@@ -64,9 +64,9 @@
     cell1.lblNextService.text = [arr1 objectAtIndex:indexPath.row];
     cell1.lblRegoDue.text = [arr2 objectAtIndex:indexPath.row];
     
-    cell1.lblNextService.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell1.lblNextService.textColor = UIColorFromRGB(k adityaGreen);
     cell1.lblNextService.font = kQuicksand_Regular12;
-    cell1.lblRegoDue.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell1.lblRegoDue.textColor = UIColorFromRGB(k adityaGreen);
     cell1.lblRegoDue.font = kQuicksand_Regular12;
     cell1.lblServiceDate.textColor = UIColorFromRGB(kappleDarkGrey);
     cell1.lblServiceDate.font = kQuicksand_Bold16;

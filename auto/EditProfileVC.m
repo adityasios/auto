@@ -35,7 +35,7 @@
 
 #pragma mark - VIEW SET UP
 -(void)setUpViews {
-    self.activityView.tintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.activityView.tintColor = UIColorFromRGB(k adityaGreen);
     [self setLbl];
     [self setBtn];
     [self setTxtFld];
@@ -60,7 +60,7 @@
 -(void)setBtn {
     
     self.btnSave.titleLabel.font = kQuicksand_Bold12;
-    self.btnSave.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnSave.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnSave.layer.cornerRadius = 4.0;
     [self.btnSave setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     
@@ -190,7 +190,7 @@
 
 /*
 UPDATE PROFILE
-http://websitedevelopment101.com/autoatlas/api/user/update_profile
+http://websitedevelopment101.com/ aditya/api/user/update_profile
 key:8dfafb41e9b4c0b3decd875e7a231049
 email:megha1@// aditya.com
 mobile:9876543210
@@ -270,13 +270,13 @@ user_id:62
 
 
 /*
- 2018-03-09 21:29:07.757374+0530 AutoAtlas[1468:483270] Result = {
+ 2018-03-09 21:29:07.757374+0530  aditya[1468:483270] Result = {
  data =     {
  email = "// aditya@gmail.com";
  "first_name" = // aditya;
  id = 135;
  mobile = "<null>";
- "profile_photo" = "http://websitedevelopment101.com/autoatlas/assets/uploads/user_images/b5a0fc5609a7bc514d86b13f14057e24.jpg";
+ "profile_photo" = "http://websitedevelopment101.com/ aditya/assets/uploads/user_images/b5a0fc5609a7bc514d86b13f14057e24.jpg";
  "user_id" = 135;
  };
  message = succeed;

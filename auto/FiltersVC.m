@@ -91,10 +91,10 @@
     self.sliderDistance.value = 0;
     self.sliderDistance.minimumValue = 0.0;
     self.sliderDistance.maximumValue = 80.0;
-    self.sliderDistance.tintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.sliderDistance.tintColor = UIColorFromRGB(k adityaGreen);
     
     self.lblRegion.text = [NSString  stringWithFormat:@"%d km",(int)self.sliderDistance.value];
-    self.lblRegion.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblRegion.textColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -103,8 +103,8 @@
 #pragma mark - VIEW SET UP
 -(void)viewSetUp {
     self.view.backgroundColor = UIColorFromRGB(kBackground);
-    self.activityService.tintColor = UIColorFromRGB(kAutoAtlasGreen);
-    self.activityVehicle.tintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.activityService.tintColor = UIColorFromRGB(k adityaGreen);
+    self.activityVehicle.tintColor = UIColorFromRGB(k adityaGreen);
     
     [self setBtn];
     [self setLbl];
@@ -118,7 +118,7 @@
     UIButton * btnBottom = [[UIButton alloc]initWithFrame:CGRectMake(0, (self.navigationController.view.frame.origin.y)+(self.view.frame.size.height-40), self.view.frame.size.width, 40)];
     [btnBottom setTitle:@"Apply" forState:UIControlStateNormal];
     [btnBottom setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
-    btnBottom.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    btnBottom.backgroundColor = UIColorFromRGB(k adityaGreen);
     btnBottom.titleLabel.font = kQuicksand_Bold14;
     btnBottom.tag = 102;
     [btnBottom  addTarget:self action:@selector(btnApplyAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -140,7 +140,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Filters"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -208,8 +208,8 @@
         cell.imgServBorder.layer.borderWidth = 1;
         cell.imgServBorder.backgroundColor = [UIColor  whiteColor];
         if ([marrServiceSel  containsObject:indexPath]) {
-            cell.lblServiceType.textColor = UIColorFromRGB(kAutoAtlasGreen);
-            cell.imgServBorder.layer.borderColor = UIColorFromRGB(kAutoAtlasGreen).CGColor;
+            cell.lblServiceType.textColor = UIColorFromRGB(k adityaGreen);
+            cell.imgServBorder.layer.borderColor = UIColorFromRGB(k adityaGreen).CGColor;
         }else{
             cell.lblServiceType.textColor = UIColorFromRGB(kappleDarkGrey);
             cell.imgServBorder.layer.borderColor = UIColorFromRGB(kappleGrey).CGColor;
@@ -260,8 +260,8 @@
         cell.imgServBorder.backgroundColor = [UIColor  whiteColor];
         
         if ([marrVehicleTypeSel  containsObject:indexPath]) {
-            cell.lblVehicletype.textColor = UIColorFromRGB(kAutoAtlasGreen);
-            cell.imgServBorder.layer.borderColor = UIColorFromRGB(kAutoAtlasGreen).CGColor;
+            cell.lblVehicletype.textColor = UIColorFromRGB(k adityaGreen);
+            cell.imgServBorder.layer.borderColor = UIColorFromRGB(k adityaGreen).CGColor;
         }else{
             cell.lblVehicletype.textColor = UIColorFromRGB(kappleDarkGrey);
             cell.imgServBorder.layer.borderColor = UIColorFromRGB(kappleGrey).CGColor;
@@ -346,7 +346,7 @@
         self.lblRecommended.textColor = UIColorFromRGB(kappleGrey);
         [sender  setSelected:NO];
     }else{
-        self.lblRecommended.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblRecommended.textColor = UIColorFromRGB(k adityaGreen);
         [sender  setSelected:YES];
     }
 }
@@ -361,7 +361,7 @@
         self.lblHighRating.textColor = UIColorFromRGB(kappleGrey);
         [sender  setSelected:NO];
     }else{
-        self.lblHighRating.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblHighRating.textColor = UIColorFromRGB(k adityaGreen);
         [sender  setSelected:YES];
     }
 }
@@ -406,7 +406,7 @@
 
 #pragma mark - WEBCALL
 -(void)webCallForServiceType{
-    //http://websitedevelopment101.com/autoatlas/api/settings/service_lists
+    //http://websitedevelopment101.com/ aditya/api/settings/service_lists
     
     NSString *strPost = [KBaseURL stringByAppendingString:kPostServiceList];
     
@@ -636,8 +636,8 @@
  self.sliderRegion.maximumValue = 80.0;
  self.sliderRegion.font = kQuicksand_Regular10;
  self.sliderRegion.textColor = UIColorFromRGB(kappleWhite);
- self.sliderRegion.tintColor = UIColorFromRGB(kAutoAtlasGreen);
- self.sliderRegion.popUpViewColor = UIColorFromRGB(kAutoAtlasGreen);
+ self.sliderRegion.tintColor = UIColorFromRGB(k adityaGreen);
+ self.sliderRegion.popUpViewColor = UIColorFromRGB(k adityaGreen);
  self.sliderRegion.popUpViewArrowLength = 5.0;
  [self.sliderRegion setMaxFractionDigitsDisplayed:0.0];
  */

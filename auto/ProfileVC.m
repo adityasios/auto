@@ -67,7 +67,7 @@
     
     //name
     self.lblVendorName.font = kQuicksand_Regular15;
-    self.lblVendorName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblVendorName.textColor = UIColorFromRGB(k adityaGreen);
     self.lblVendorName.text = self.objVendorList.name.capitalizedString;
     
     //star
@@ -137,7 +137,7 @@
     
     
     //check availability
-    NSDictionary * dictCheck = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(kAutoAtlasGreen),NSForegroundColorAttributeName, kQuicksand_Bold14,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
+    NSDictionary * dictCheck = [[NSDictionary  alloc] initWithObjectsAndKeys:UIColorFromRGB(k adityaGreen),NSForegroundColorAttributeName, kQuicksand_Bold14,NSFontAttributeName,@(NSUnderlineStyleSingle),NSUnderlineStyleAttributeName,nil];
     NSAttributedString * Check = [[NSAttributedString  alloc] initWithString:[NSString  stringWithFormat:@"Check Availability"] attributes:dictCheck];
     self.lblCheckAvailability.attributedText = Check;
     
@@ -156,7 +156,7 @@
     
     
     //offer1
-    self.lblOffer1Title.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblOffer1Title.textColor = UIColorFromRGB(k adityaGreen);
     self.lblOffer1Title.font = kQuicksand_Bold13;
     
     self.lblOffer1Valid.textColor = UIColorFromRGB(kappleGrey);
@@ -164,7 +164,7 @@
     
     
     //offer2
-    self.lblOffer2Title.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblOffer2Title.textColor = UIColorFromRGB(k adityaGreen);
     self.lblOffer2Title.font = kQuicksand_Bold13;
     
     self.lblOffer2Valid.textColor = UIColorFromRGB(kappleGrey);
@@ -203,7 +203,7 @@
     [btnBottom setTitle:@"Share Your Feedback" forState:UIControlStateNormal];
     [btnBottom setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     [btnBottom addTarget:self action:@selector(btnBottomClicked:) forControlEvents:UIControlEventTouchUpInside];
-    btnBottom.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    btnBottom.backgroundColor = UIColorFromRGB(k adityaGreen);
     btnBottom.titleLabel.font = kQuicksand_Bold14;
     btnBottom.tag = 101;
     [self.navigationController.view addSubview:btnBottom];
@@ -239,7 +239,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:self.objVendorList.name.capitalizedString];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -326,7 +326,7 @@
     cell.imgServiceType.clipsToBounds = YES;
     cell.imgServiceType.layer.cornerRadius = 20;
     cell.imgServiceType.layer.borderWidth = 1;
-    cell.imgServiceType.layer.borderColor = UIColorFromRGB(kAutoAtlasGreen).CGColor;
+    cell.imgServiceType.layer.borderColor = UIColorFromRGB(k adityaGreen).CGColor;
     
     
     if (objServiceType.service_image) {
@@ -642,7 +642,7 @@
 
 
 /*
- http://websitedevelopment101.com/autoatlas/api/vendor/vendor-details
+ http://websitedevelopment101.com/ aditya/api/vendor/vendor-details
  key:8dfafb41e9b4c0b3decd875e7a231049
  latitude:12.777
  longitude:12.666
@@ -777,13 +777,13 @@
     UIButton * btnCancel =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnCancel setFrame:CGRectMake(0, 0, 32, 32)];
     [btnCancel  setTitle:@"Cancel" forState:UIControlStateNormal];
-    [btnCancel setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnCancel setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker setCancelButton:[[UIBarButtonItem alloc] initWithCustomView:btnCancel]];
     
     UIButton * btnDone =  [UIButton buttonWithType:UIButtonTypeCustom];
     [btnDone setFrame:CGRectMake(0, 0, 32, 32)];
     [btnDone  setTitle:@"Done" forState:UIControlStateNormal];
-    [btnDone setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [btnDone setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [picker  setDoneButton:[[UIBarButtonItem alloc] initWithCustomView:btnDone]];
     [picker showActionSheetPicker];
 }

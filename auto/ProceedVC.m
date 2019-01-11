@@ -36,7 +36,7 @@
     
     
     //login
-    self.btnLogin.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnLogin.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnLogin.layer.cornerRadius = 2.0;
     self.btnLogin.titleLabel.font = kQuicksand_Bold12;
     
@@ -55,7 +55,7 @@
     
     
     NSDictionary *dict1 = @{NSUnderlineStyleAttributeName:@(NSUnderlineStyleSingle),
-                            NSForegroundColorAttributeName:UIColorFromRGB(kAutoAtlasGreen),
+                            NSForegroundColorAttributeName:UIColorFromRGB(k adityaGreen),
                             NSFontAttributeName:kQuicksand_Regular12
                             };
     

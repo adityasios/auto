@@ -335,7 +335,7 @@ static float shadowOpacity = 0.3;
     
     
     /*
-    DGActivityIndicatorView *  activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType:DGActivityIndicatorAnimationTypeBallClipRotateMultiple tintColor:UIColorFromRGB(kAutoAtlasGreen) size:SCREEN_WIDTH*0.5];
+    DGActivityIndicatorView *  activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType:DGActivityIndicatorAnimationTypeBallClipRotateMultiple tintColor:UIColorFromRGB(k adityaGreen) size:SCREEN_WIDTH*0.5];
     activityIndicatorView.center = CGPointMake(viewloader.center.x, viewloader.center.y - 64);
     [viewloader addSubview:activityIndicatorView];
     [activityIndicatorView startAnimating];
@@ -346,7 +346,7 @@ static float shadowOpacity = 0.3;
     /*
     InstagramActivityIndicator *indicator = [[InstagramActivityIndicator alloc]initWithFrame:CGRectMake(0, 0,100,100)];
     indicator.lineWidth = 3;
-    indicator.strokeColor = UIColorFromRGB(kAutoAtlasGreen);
+    indicator.strokeColor = UIColorFromRGB(k adityaGreen);
     indicator.numSegments = 18;
     indicator.rotationDuration = 12;
     indicator.animationDuration = 0.8;

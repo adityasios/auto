@@ -46,9 +46,9 @@
     
     self.lblCurrentPlan.textColor = UIColorFromRGB(kappleGrey);
     self.lblCurrentPlan.font = kQuicksand_Regular14;
-    self.lblNoOfVehicles.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblNoOfVehicles.textColor = UIColorFromRGB(k adityaGreen);
     self.lblNoOfVehicles.font = kQuicksand_Regular14;
-    self.lblPlanActive.textColor =  UIColorFromRGB(kAutoAtlasGreen);
+    self.lblPlanActive.textColor =  UIColorFromRGB(k adityaGreen);
     self.lblPlanActive.font = kQuicksand_Regular14;
     self.lblSince.textColor = UIColorFromRGB(kappleLightGrey);
     self.lblSince.font = kQuicksand_Regular10;
@@ -64,14 +64,14 @@
 
 
 -(void)setViews {
-    self.viewMainHeader.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.viewMainHeader.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.viewCurrentPlan.layer.cornerRadius = 8.0;
 }
 
 
 -(void)setNavBar {
     [self customNavTitle:@"Your active subscription"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -121,7 +121,7 @@
     cell.lblTransactionNumber.font = kQuicksand_Regular12;
     cell.lblTransactionNumber.textColor = UIColorFromRGB(kappleDarkGrey);
     
-    cell.lblPackageName.textColor = UIColorFromRGB(kAutoAtlasGreen);
+    cell.lblPackageName.textColor = UIColorFromRGB(k adityaGreen);
     cell.lblPackageName.font = kQuicksand_Bold12;
     
     cell.lblSeperator.backgroundColor = UIColorFromRGB(kappleGrey);
@@ -136,7 +136,7 @@
     }
     else {
         
-        cell.lblCancelled.textColor = UIColorFromRGB(kAutoAtlasGreen);
+        cell.lblCancelled.textColor = UIColorFromRGB(k adityaGreen);
         cell.lblCancelled.text = @"completed";
     }
     

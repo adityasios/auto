@@ -84,7 +84,7 @@
 
 
 -(void)setViews {
-    self.viewMain.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.viewMain.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.viewLocationBtn.layer.cornerRadius = 2.0;
 }
 
@@ -179,7 +179,7 @@
 
 - (IBAction)btnChooseYourcityAction:(id)sender {
     
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGBWithAlpha(kAutoAtlasGreen, 1.0)];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGBWithAlpha(k adityaGreen, 1.0)];
     [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
     
     GMSPlacePickerConfig *config = [[GMSPlacePickerConfig alloc] initWithViewport:nil];

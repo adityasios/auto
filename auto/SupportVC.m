@@ -39,7 +39,7 @@
 
 -(void)setNavBar {
     [self customNavTitle:@"Support"];
-    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.navigationController.navigationBar.barTintColor = UIColorFromRGB(k adityaGreen);
 }
 
 
@@ -69,7 +69,7 @@
        
         cell.lblTitle.text = @"Email";
         
-        NSMutableAttributedString * astr = [[NSMutableAttributedString alloc] initWithString:@"support@theautoatlas.com.au"];
+        NSMutableAttributedString * astr = [[NSMutableAttributedString alloc] initWithString:@"support@the aditya.com.au"];
         [astr addAttribute:NSUnderlineStyleAttributeName value:[NSNumber numberWithInt:1] range:(NSRange){0,[astr length]}];
         [astr  addAttribute:NSForegroundColorAttributeName value:UIColorFromRGB(kfbBlue) range:(NSRange){0,[astr length]}];
         cell.lblTxt.attributedText = astr;
@@ -103,7 +103,7 @@
         if ([MFMailComposeViewController canSendMail]) {
             MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] initWithNibName:nil bundle:nil];
             [composeViewController setMailComposeDelegate:self];
-            [composeViewController setToRecipients:@[@"support@theautoatlas.com.au"]];
+            [composeViewController setToRecipients:@[@"support@the aditya.com.au"]];
             [composeViewController setSubject:@"Auto Atlas Support"];
             [self presentViewController:composeViewController animated:YES completion:nil];
         }

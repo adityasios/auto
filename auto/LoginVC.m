@@ -77,19 +77,19 @@
     //login
     self.btnLogin.layer.cornerRadius = 2.0;
     self.btnLogin.clipsToBounds = YES;
-    self.btnLogin.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.btnLogin.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.btnLogin.titleLabel.font = kQuicksand_Bold14;
     [self.btnLogin setTitleColor:UIColorFromRGB(kappleWhite) forState:UIControlStateNormal];
     
     
     //sign up
     NSDictionary *dict1 = @{NSUnderlineStyleAttributeName:@(NSUnderlineStyleSingle),
-                            NSForegroundColorAttributeName:UIColorFromRGB(kAutoAtlasGreen),
+                            NSForegroundColorAttributeName:UIColorFromRGB(k adityaGreen),
                             NSFontAttributeName:kQuicksand_Regular12
                             };
     NSAttributedString * atr = [[NSAttributedString  alloc]initWithString:@"Sign Up" attributes:dict1];
     self.btnsignUp.titleLabel.font = kQuicksand_Regular13;
-    [self.btnsignUp   setTitleColor:UIColorFromRGB(kAutoAtlasGreen) forState:UIControlStateNormal];
+    [self.btnsignUp   setTitleColor:UIColorFromRGB(k adityaGreen) forState:UIControlStateNormal];
     [self.btnsignUp setAttributedTitle:atr forState:UIControlStateNormal];
 }
 
@@ -132,9 +132,9 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField{
     if (textField == self.txtFldUsername) {
-        self.lblEmailBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblEmailBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }else{
-        self.lblPswdBtm.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+        self.lblPswdBtm.backgroundColor = UIColorFromRGB(k adityaGreen);
     }
 }
 
@@ -395,7 +395,7 @@
 
 /*
  SOCIAL SIGN IN
- http://websitedevelopment101.com/autoatlas/api/user/social_signin
+ http://websitedevelopment101.com/ aditya/api/user/social_signin
  POST
  key:8dfafb41e9b4c0b3decd875e7a231049
  first_name:megh
@@ -506,7 +506,7 @@
 
 /*
  UPDATE USER DEVICE
- http://websitedevelopment101.com/autoatlas/api/user/register_user_device
+ http://websitedevelopment101.com/ aditya/api/user/register_user_device
  POST
  key:8dfafb41e9b4c0b3decd875e7a231049
  email:megha@// aditya.com

@@ -44,12 +44,12 @@
 
 #pragma mark  - VIEW SET UP
 -(void)viewSetUp{
-    self.lblTitle.backgroundColor = UIColorFromRGB(kAutoAtlasGreen);
+    self.lblTitle.backgroundColor = UIColorFromRGB(k adityaGreen);
     self.lblTitle.font = kQuicksand_Bold17;
     self.lblTitle.text = @"Check Availability";
     self.lblTitle.textColor = UIColorFromRGB(kappleWhite);
     
-    [self.btnSubmit  setBackgroundColor:UIColorFromRGB(kAutoAtlasGreen)];
+    [self.btnSubmit  setBackgroundColor:UIColorFromRGB(k adityaGreen)];
     self.btnSubmit.titleLabel.font = kQuicksand_Bold15;
     [self.btnSubmit  setTitle:@"CANCEL" forState:UIControlStateNormal];
     
